@@ -7,6 +7,10 @@ class TodosController < ApplicationController
   def new
   end
 
+  def index
+    
+  end
+
   def create
     @todo = Todo.new(todo_params)
     @todo.save
